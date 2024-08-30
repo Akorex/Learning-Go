@@ -13,4 +13,6 @@ func main() {
 	i2 := i.(MyInt) // checks if the value stored in i can be converted to a MyInt
 	fmt.Println(i2 + 1)
 	fmt.Printf("%T ", i2)
+
+	i3 := i.(string)
 }
