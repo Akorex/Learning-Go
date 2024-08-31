@@ -61,6 +61,7 @@ func main() {
 	output := p.String()
 
 	fmt.Println(output)
+	fmt.Println(p)
 
 	myAdder := Adder{start: 6}
 
