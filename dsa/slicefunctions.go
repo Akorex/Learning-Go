@@ -28,6 +28,6 @@ func Filter[T any](s []T, f func(T) bool) []T {
 			r = append(r, v)
 		}
 	}
-
+	
 	return r
 }
