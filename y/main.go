@@ -43,4 +43,15 @@ func main() {
 	})
 
 	fmt.Println(people)
+
+
+	s := Stack[int]{}
+	s.Push(10)
+	s.Push(20)
+	s.Push(30)
+
+	fmt.Println(s.Length())
+
+
+
 }

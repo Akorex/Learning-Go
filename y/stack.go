@@ -28,3 +28,7 @@ func (s *Stack[T]) Contains(val T) bool {
 	}
 	return false
 }
+
+func (s *Stack[T]) Length() int {
+	return len(s.vals)
+}
